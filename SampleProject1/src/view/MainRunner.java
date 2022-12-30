@@ -1,5 +1,5 @@
 package view;
-import model.logic;
+import model.Logic;
 
 import java.util.stream.IntStream;
 
@@ -12,7 +12,7 @@ public class MainRunner {
 
 
         //Logic instructions
-        logic instance = new logic();
+        Logic instance = new Logic();
 
         IntStream.range(1, 5).forEachOrdered(n -> {
 
